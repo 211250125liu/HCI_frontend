@@ -28,6 +28,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+    <el-button class="button1" type="primary" @click="tiaoZhuan()">点击回家</el-button>
 </template>
 
 <script>
@@ -35,6 +36,16 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+      tiaoZhuan() {
+          this.$router.push('/TravelHome')
+          // this.message({
+          //     showClose: true,
+          //     message: 'welcome',
+          //     type : 'success'
+          // });
+      }
   }
 }
 </script>

@@ -33,10 +33,10 @@ export default {
     return {
         bgUrl: '',
         bgUrlList: [
-          './src/assets/1.jpg',
-          './src/assets/2.jpg',
-          './src/assets/3.jpg',
-          './src/assets/4.jpg'
+          'public/image/1.jpg',
+          'public/image/2.jpg',
+          'public/image/3.jpg',
+          'public/image/4.jpg'
         ],
         bgUrlIndex: 0,
       form: {},
@@ -53,7 +53,7 @@ export default {
   },
 
   mounted() {
-    this.bgUrl = './src/assets/bg_chongqing.jpg';
+    this.bgUrl = 'public/image/5.jpg';
     setInterval(()=>{
           this.bgUrlIndex = (this.bgUrlIndex+1)%this.bgUrlList.length;
           this.bgUrl=this.bgUrlList[this.bgUrlIndex];

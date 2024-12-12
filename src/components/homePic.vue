@@ -7,14 +7,14 @@
 
         <!-- 大图片 -->
         <div class="large-image" @click="fetchData('江苏', city_info.name)">
-            <img :src="city_info.largeImageUrl" alt="Large Image" loading="lazy">
+            <img :src="city_info.largeImageUrl" alt="Large Image" >
         </div>
 
         <!-- 小图片 -->
         <div class="small-images" @click="fetchData('江苏', city_info.name)">
             <div v-for="(image, index) in city_info.smallImages" :key="index" class="small-image">
                 <!-- <img :src="image.url" :alt="'Small Image ' + (index + 1)" @click="handleImageClick(index)"> -->
-                <img :src="image" loading="lazy" alt="">
+                <img :src="image"  alt="">
             </div>
         </div>
     </div>

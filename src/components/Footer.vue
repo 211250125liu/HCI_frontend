@@ -17,7 +17,7 @@
                 <p>网站备案号: 本网站尚未备案</p>
             </div>
             <div class="footer-image">
-                <img src="/src/assets/pay.png" alt="联系方式" />
+                <img src="/image/pay.png" alt="联系方式" />
                 <p>支持我们</p>
             </div>
         </div>

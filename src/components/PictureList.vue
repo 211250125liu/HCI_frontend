@@ -12,7 +12,7 @@
                     <div class="date-location">
                         <div class="date">{{ item.createTime }}</div>
                         <div class="location-container">
-                            <img src="../assets/location.jpg" alt="Location" class="location-img" />
+                            <img src="../../public/image/location.jpg" alt="Location" class="location-img" />
                             <p class="location">江苏 {{ cityName }}</p>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
     </ul>
 </template>
 <script>
-import logo from "../assets/river.jpeg"
+import logo from "../../public/image/river.jpeg"
 import { request } from "../utils/request";
 
 export default {

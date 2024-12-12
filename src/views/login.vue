@@ -33,10 +33,10 @@ export default {
     return {
         bgUrl: '',
         bgUrlList: [
-          './src/assets/bg_chongqing.jpg',
-          './src/assets/bg_argentina.jpg',
-          './src/assets/bg_haitan.jpg',
-          './src/assets/bg_countryside.jpg'
+          './src/assets/1.jpg',
+          './src/assets/2.jpg',
+          './src/assets/3.jpg',
+          './src/assets/4.jpg'
         ],
         bgUrlIndex: 0,
       form: {},

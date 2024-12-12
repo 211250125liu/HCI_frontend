@@ -1,7 +1,7 @@
 <template>
     <el-menu :default-active="activeMenu" class="el-menu" mode="horizontal" @select="handleMenuSelect" router>
         <div class="logo-container">
-            <img src="/src/assets/logo2.png" alt="Logo" class="logo" />
+            <img src="/image/logo2.png" alt="Logo" class="logo" />
             <span class="project-name">足迹相册</span>
         </div>
         <el-menu-item index="/TravelHome">首页</el-menu-item>

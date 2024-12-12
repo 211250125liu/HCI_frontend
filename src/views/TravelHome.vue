@@ -52,7 +52,7 @@ import Footer from "../components/Footer.vue";
 import homePic from "../components/homePic.vue";
 import index from "vuex";
 import { request } from "../utils/request";
-import add_pic from "../assets/add_pic.jpg"
+import add_pic from "../../public/image/add_pic.jpg"
 
 export default {
     computed: {
@@ -72,7 +72,7 @@ export default {
             cities: [
                 {
                     name: '徐州市',
-                    largeImageUrl: './src/assets/bg_argentina.jpg',
+                    largeImageUrl: 'public/image/bg_argentina.jpg',
                     smallImages: [ './src/assets/bg_argentina.jpg', './src/assets/bg_argentina.jpg', './src/assets/3.jpg',
                         './src/assets/1.jpg', './src/assets/3.jpg', './src/assets/bg_stars.jpg',
                         './src/assets/2.jpg', './src/assets/location.jpg']
@@ -205,7 +205,7 @@ export default {
     /*float: right;*/
 
     /*background-color: #F2F6ff;*/
-    background-image: url('/src/assets/bg_darkblue.jpg')
+    background-image: url('/image/bg_darkblue.jpg')
 }
 
 .picture-collection {
